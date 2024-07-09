@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(25,25,25);
+    color: white;
+    font-family: arial;
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.image{
+    height: 70px;
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+}
+
+.butt{
+    display: flex;
+    justify-content: space-around;
+}
+
+.result{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.butt1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.result1{
+    margin-left: 45%;
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.score{
+    margin-top: 50px;
+}
